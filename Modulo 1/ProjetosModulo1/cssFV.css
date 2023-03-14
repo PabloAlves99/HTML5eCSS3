@@ -1,0 +1,13 @@
+body{
+    background-color: #D0E4F2;
+    color: #1A1F2B;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+}
+div{
+    position:absolute;
+	left:32%;
+	margin-left:-80px;
+    height: 650px;
+    width: 650px;
+}

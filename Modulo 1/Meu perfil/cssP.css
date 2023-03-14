@@ -1,0 +1,44 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2F4F4F;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#dados{
+    position:absolute;
+    display:block;
+    background-color:#1C1C1C;
+    color:rgb(205, 247, 233);
+    padding: 35px;
+    box-shadow: 5px 5px 10px black;
+    float: left;
+    height: 200px;
+    width: 420px;
+}
+
+#content{
+    position: absolute;
+    display: block;
+    background-color:#1c1c1c;
+    color:rgb(205, 247, 233);
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+    float: left;
+    height: 200px;
+    width: 420px;
+}
+
+#certificate{
+    display: block;
+    background-color:#1C1C1C;
+    color:rgb(205, 247, 233);
+    padding: 35px;
+    box-shadow: 5px 5px 10px black;
+    float: right;
+    height:200px;
+    width: 420px;
+}
