@@ -3,8 +3,8 @@
 <section>
     <h2>Projetos do curso</h2>
 <ul>
-    <li><a href="#">Projeto Google Glass</a></li>
-    <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%202/SiteArmonico.html" target="_blank">Site Armonico</a></li>
+    <!--<li><a href="#">Projeto Google Glass</a></li>-->
+    <!--<li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%202/SiteArmonico.html" target="_blank">Site Armonico</a></li>-->
     <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%202/ProjetoAndroid/android.html" target="_blank">Projeto Android</a></li>
 </ul>
 </section>
