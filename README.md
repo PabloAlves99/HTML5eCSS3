@@ -1,5 +1,5 @@
 <H1>HTML5 e CSS3</H1>
-<h2>Curso de HTML5 e CSS3 com Gustavo Guanabara</h2>
+<p>Curso de HTML5 e CSS3 com Gustavo Guanabara</p>
 <section>
     <h2>Projetos do curso</h2>
 <ul>
