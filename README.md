@@ -1,6 +1,6 @@
 <H1>HTML5 e CSS3</H1>
 <h3>Curso de HTML5 e CSS3 com Gustavo Guanabara</h3>
-<p> neste repositório vou compartilhar todo o meu aprendizado com o professor Gustavo Guanabara</p>
+<p> Neste repositório vou compartilhar todo o meu aprendizado com o professor Gustavo Guanabara</p>
 <section>
     <h2>Projetos do curso</h2>
 <ul>
