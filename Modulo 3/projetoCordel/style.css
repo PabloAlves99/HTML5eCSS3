@@ -16,7 +16,7 @@
     font-size: 1em;
 }
 
-body{
+html, body{
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte1);
@@ -28,7 +28,7 @@ header{
     text-align: center;
 }
 
-header h1{
+header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
@@ -36,7 +36,6 @@ header h1{
 }
 
 header p{
-    font-size: 1.1em;
     padding-bottom: 50px;
 }
 
@@ -57,12 +56,12 @@ footer {
     padding: 10px;
 }
 
-main{
+.normal{
     background-color: white;
-    text-align: justify;
+    color: black;
 }
 
-#text{
+section{
     font-family: var(--fonte3);
     font-size: 3.5vw;
     padding-top: 10vh;
@@ -71,18 +70,20 @@ main{
     line-height: 2em;
 }
 
-#text > p{
+section > p{
     padding-bottom: 2em;
 }
 
 .inbox {
-    width: 85vh;
-    background-color: black;
-    opacity: 0.8;
+    background-color: rgb(39, 39, 39);
     color: white;
 }
 
-#inbox2{
-    width: 87vh;
+.inbox > p {
+    display: inline-block;
+    padding: 5px;
+    opacity: 0.5;
+    background-color: rgb(22, 22, 22);
 }
+
 
