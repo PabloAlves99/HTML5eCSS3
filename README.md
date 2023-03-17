@@ -7,5 +7,6 @@
   <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Projeto%20Google%20Glass%20para%20o%20GitHub/index.html">Projeto Google Glass</a></li> (Apresenta falhas em dispositivos menores. Ex: celular...)
     <!--<li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%202/SiteArmonico.html" target="_blank">Site Armonico</a></li>-->
     <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%202/ProjetoAndroid/android.html" target="_blank">Projeto Android</a></li>
+    <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%203/projetoCordel/CordelParaGitHub.html" target="_blank"> Cordel Moderno</a></li>
 </ul>
 </section>
