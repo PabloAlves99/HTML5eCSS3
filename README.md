@@ -8,5 +8,6 @@
     <!--<li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%202/SiteArmonico.html" target="_blank">Site Armonico</a></li>-->
     <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%202/ProjetoAndroid/android.html" target="_blank">Projeto Android</a></li>
     <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%203/projetoCordel/CordelParaGitHub.html" target="_blank"> Cordel Moderno</a></li>
+    <li><a href="https://github.com/PabloAlves99/HTML5eCSS3/blob/main/Modulo%201/Meu%20perfil/meuPerfil.html"> Projeto Perfil do modulo 1</a></li>
 </ul>
 </section>
