@@ -123,8 +123,12 @@ picture img.icon{
     padding-left: 20px;
     position: relative;
     left: 24%;
+    transition: .5s;
 }
 
+picture img.icon:hover{
+    transform: scale(1.5);
+}
 
 div img{
     width: 100%;
