@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Alves</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root{
+    --fundo: #0d0d0dfa;
+    --vermelhoforte: #F20707;
+    --vermelhoescuro: #590202;
+    --vermelhomedio: #8C0303;
+    --vermelhofosco: #BF0404;
+
+    --azulescuro: #0F2026;
+    --azulfosco: #224A59;
+    --azulmedio: #4B8CA6;
+    --azulclaro: #A3C9D9;
+    --brancoazulado:#F0F1F2;
+    --aclaroforte:#74BFF7;
+
+    --fontAnun:'Anton', sans-serif;
+}
+
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body{
+    background-color: #0d0d0dfa;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#menu{
+    font-weight: bolder;
+    font-size: 1.3vw;
+    color: var(--azulfosco);
+    padding-top: 5px;
+}
+
+#menu ul{
+    padding: 5px;
+}
+
+#menu ul li:first-child{
+    float: right;
+}
+
+#menu ul li{
+    display: inline-block;
+    padding: 20px;
+    margin-inline: -3.5px;
+    width: 15vw;
+    text-align: center;
+    
+    transition: .4s;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: var(--azulfosco);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.068);
+
+    transition: .4s;
+}
+
+#menu ul li:hover{
+    background-color: var(--azulescuro);
+    box-shadow: 2px 2px 2px #0F2026;
+}
+
+#menu ul li a:hover{
+    text-decoration: underline;
+    color: var(--aclaroforte);
+}
+
+section{
+    color: var(--aclaroforte);
+    padding-top: 12%;
+    padding-left: 10%;
+    font-family: 'Anton', sans-serif;
+}
+
+section h1 a{
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: var(--aclaroforte);
+}
+
+section h1{
+    text-indent: 100px;
+}
+
+section h2, section h1{
+     /* Primeiro passo: definir um degradê como fundo */
+  background-image: linear-gradient(to top,var(--azulescuro),var(--azulfosco) 40%, var(--aclaroforte));
+  
+  /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+  background-clip: text;
+  -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+
+  /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+  -webkit-text-fill-color: transparent;
+
+  /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+  color: var(--aclaroforte);
+  
+}
+
+section h2{
+    font-size: 4vw;
+}
+
+section a:hover{
+    text-shadow: .7px .7px 2px #74BFF7;
+}
+
+picture{
+    position: absolute;
+    top: 10.5vw;
+    left: 66.5vw;
+    display: inline;
+}
+
+picture img.icon{
+    width: 2vw;
+    padding-left: 20px;
+    position: relative;
+    left: 24%;
+    transition: .5s;
+}
+
+picture img.icon:hover{
+    transform: scale(1.5);
+}
+
+div img{
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+<main>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="#"> DEV Pablo Alves</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Certificados</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1><a href="#">Pablo Alves</a></h1>
+        <h2>Desenvolvedor Front-End</h2>
+    </section>
+
+    <picture>
+        <div id="minhaF">
+            <img alt="Minha Foto" srcset="novaMinhaC.png">
+        </div>
+
+            <a href="https://www.linkedin.com/in/pablo-alves-2825b1223/" target="_blank"><img class="icon" src="linkedin32.png" alt="Linkedin"></a>
+            <a href="https://github.com/PabloAlves99" target="_blank"><img class="icon" src="github32.png" alt="GitHub"></a>
+            <a href="#"><img class="icon" src="insta32.png" alt="Instagram"></a>
+    </picture>
+</main>
+    
+</body>
+</html>
