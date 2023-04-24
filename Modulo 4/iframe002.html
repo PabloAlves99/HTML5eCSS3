@@ -6,34 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iframe002</title>
     <style>
-        #centro{
-            width: 100vp;
-            height: 100vp;
-        }
-        #tamanho{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 70vp;
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }   
+
+        div{
+            width: 95vw;
             height: auto;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
+
         iframe{
-            position: relative;
-            width: 80%;
-            height: 100vh;
+            width: 101vh;
+            height: 400px;
         }
+
     </style>
 
 </head>
 <body>
     <h1> Teste com Iframe</h1>
+    <h2>Escolha uma opção</h2>
+    <ul>
+        <li><a href="../Modulo 3/tabela06.html" target="Frame">Pagina teste 01</a></li>
+        <li><a href="pagina01.html" target="Frame">Pagina teste 02</a></li>
+        <li><a href=""> Pagina teste 03</a></li>
+    </ul>
     <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt sequi suscipit, doloribus inventore temporibus officia veritatis neque, corporis non explicabo veniam sed molestiae dicta et, beatae ea mollitia ducimus id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere obcaecati recusandae blanditiis ullam consectetur repudiandae perferendis expedita minima ea laboriosam aliquid, possimus velit praesentium aperiam modi nesciunt voluptatibus placeat.</p>
 
-    <div id="centro">
-        <div id="tamanho">
-            <iframe src="../Modulo 3/tabela06.html" frameborder="0" height="400" width="500"></iframe>
-        </div>
-    </div>
+            <div>
+                <iframe src="" frameborder="0" name="Frame">
+                    <p>O seu navegador não é compativel</p>
+                </iframe>
+            </div>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non porro dolorum enim dolore sunt, reiciendis facilis in incidunt eum quibusdam. Pariatur quod reprehenderit, nesciunt ipsa numquam assumenda culpa vel consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia molestias autem maiores quisquam repellat labore dolorum illo qui enim possimus incidunt animi, doloribus odit accusamus repellendus suscipit nobis quod et?</p>
     
