@@ -9,7 +9,15 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1em;
+            background-color: #7E9CD9;
         }   
+
+        main{
+            margin: 0 auto;
+            width: 95vw;
+            background-color: #CEDAF2;
+            padding: 10px;
+        }
 
         div{
             width: 95vw;
@@ -25,26 +33,46 @@
             height: 400px;
         }
 
+        li{
+            font-size: 1.1em;
+            padding: 3px;
+        }
+
+        a{
+            text-decoration: none;
+            color:white;
+            background-color:#2651A6;
+            opacity: .5;
+            transition: .5s;
+
+            padding: 2px;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            opacity: 1;
+        }
+
     </style>
 
 </head>
 <body>
-    <h1> Teste com Iframe</h1>
-    <h2>Escolha uma opção</h2>
-    <ul>
-        <li><a href="../Modulo 3/tabela06.html" target="Frame">Pagina teste 01</a></li>
-        <li><a href="pagina01.html" target="Frame">Pagina teste 02</a></li>
-        <li><a href=""> Pagina teste 03</a></li>
-    </ul>
-    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt sequi suscipit, doloribus inventore temporibus officia veritatis neque, corporis non explicabo veniam sed molestiae dicta et, beatae ea mollitia ducimus id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere obcaecati recusandae blanditiis ullam consectetur repudiandae perferendis expedita minima ea laboriosam aliquid, possimus velit praesentium aperiam modi nesciunt voluptatibus placeat.</p>
-
-            <div>
-                <iframe src="" frameborder="0" name="Frame">
-                    <p>O seu navegador não é compativel</p>
-                </iframe>
-            </div>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non porro dolorum enim dolore sunt, reiciendis facilis in incidunt eum quibusdam. Pariatur quod reprehenderit, nesciunt ipsa numquam assumenda culpa vel consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia molestias autem maiores quisquam repellat labore dolorum illo qui enim possimus incidunt animi, doloribus odit accusamus repellendus suscipit nobis quod et?</p>
+    <main>
+        <h1> Teste com Iframe</h1>
+        <h2>Escolha uma opção</h2>
+        <ul>
+            <li><a href="../Modulo 3/tabela06.html" target="Frame">Pagina teste 01</a></li>
+            <li><a href="pagina01.html" target="Frame">Pagina teste 02</a></li>
+            <li><a href="../Modulo 3/tabela05.html" target="Frame"> Pagina teste 03</a></li>
+        </ul>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt sequi suscipit, doloribus inventore temporibus officia veritatis neque, corporis non explicabo veniam sed molestiae dicta et, beatae ea mollitia ducimus id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere obcaecati recusandae blanditiis ullam consectetur repudiandae perferendis expedita minima ea laboriosam aliquid, possimus velit praesentium aperiam modi nesciunt voluptatibus placeat.</p>
+                <div>
+                    <iframe srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, beatae cumque, eaque atque distinctio ea aliquid cum ducimus et consectetur ad natus harum voluptate minima dolor. Doloribus voluptatum tempora doloremque! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo rerum doloribus quam, quisquam distinctio quaerat autem aliquid amet accusantium culpa minima eligendi iure eum labore maxime. Consectetur cumque aperiam reprehenderit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero repudiandae iusto accusantium obcaecati sint odio veritatis aliquam, repellendus voluptatem explicabo in nulla! Veniam sequi nam eligendi nostrum, libero rem illum.</p>" frameborder="0" name="Frame">
+                        <p>O seu navegador não é compativel</p>
+                    </iframe>
+                </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non porro dolorum enim dolore sunt, reiciendis facilis in incidunt eum quibusdam. Pariatur quod reprehenderit, nesciunt ipsa numquam assumenda culpa vel consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia molestias autem maiores quisquam repellat labore dolorum illo qui enim possimus incidunt animi, doloribus odit accusamus repellendus suscipit nobis quod et?</p>
+    </main>
     
 </body>
 </html>
