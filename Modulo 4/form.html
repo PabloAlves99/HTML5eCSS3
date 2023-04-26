@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+            font-weight: bolder;
+            background-color: rgb(168, 222, 231);
+        }
+
+        main{
+            background-color: rgb(0, 217, 255);
+            padding: 10px;
+            width: 500px;
+            height: auto;
+            border-radius: 30px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
+
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            transform: translate(-50%, -50%);
+        }
+
+        label{
+            padding-left: 5px;
+            padding-right: 15px;
+            width: 10px;
+        }
+        input{
+            width: 150px;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 5px;
+            border: none;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.537);
+        }
+
+        #idata{
+            width: 100px;
+        }
+
+        #bot{
+            transform: translate(30%, 60%);
+        }
+
+        #bot input{
+            width: 80px;
+        }
+
+        #bot input:hover{
+            text-decoration: underline;
+        }
+
+        fieldset{
+            background-color: rgba(255, 255, 255, 0.715);
+            border-radius: 50px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de formulário</h1>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Dados de cadastro</legend>
+                <p>
+                    <label for="iusu" style="padding-right: 3px;">Usuário</label>
+                    <input type="text" name="usu" id="iusu" required maxlength="10" autocomplete="Username" placeholder="Nome de Usuário" max="10">
+                </p>
+                <p>
+                    <label for="isen">Senha</label>
+                    <input type="password" name="sen" id="isen" required maxlength="10" placeholder="Senha">
+                </p>
+                <p>
+                    <label for="iemail" style="padding-right: 22px;">Email</label>
+                    <input type="email" name="email" id="iemail" placeholder="Email">
+                </p>
+                <p>
+                    <label for="idata">Data de nascimento</label>
+                    <input type="date" name="data" id="idata"  required >
+                </p>
+            </fieldset>
+
+            <p id="bot">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            </p>
+
+        </form>
+
+
+    </main>
+    
+</body>
+</html>
