@@ -1,5 +1,73 @@
 @charset "UTF-8";
 
+/*
+typical device Breakpoints
+pequenas telas: 600px
+celulares: 600 a 768px
+tablets: 769 a 992px
+desktop: 993px até 1200px
+grandes telas acima de 1200px 
+*/
+
 @media print {
+   /* body{
+        background-image: url(../imagens/back-print.jpg);
+    } desnecessário*/
+
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main{
+        border: 2px solid black;
+        box-shadow: 2px 2px 10px black;
+        width: 90vw;
+    }
+
+    main::after{
+        content: "Essa impressão foi feita de um estudo do Pablo Alves"
+    }
+
+    #phone {display: none;}
+    #tablet{display: none;}
+    #print {display: block;}
+    #desktop {display: none;}
+    #tv {display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: url("../imagens/back-tablet.jpg");
+    }
     
+    #phone {display: none;}
+    #tablet{display: block;}
+    #print {display: none;}
+    #desktop {display: none;}
+    #tv {display: none;}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-image: url("../imagens/back-pc.jpg");
+    }
+
+    #phone {display: none;}
+    #tablet{display: none;}
+    #print {display: none;}
+    #desktop {display: block;}
+    #tv {display: none;}
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    #phone {display: none;}
+    #tablet{display: none;}
+    #print {display: none;}
+    #desktop {display: none;}
+    #tv {display: block;}
 }
