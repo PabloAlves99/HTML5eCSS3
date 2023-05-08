@@ -7,7 +7,7 @@
     color: #0F2026;
 }
 
-body{
+body,html{
     background-color: #0F2026;
 }
 
@@ -20,38 +20,62 @@ header > h1{
     padding: 10px;
 }
 
-menu ul li{
-    display: inline-block;
-    background-color: #224A59;
+span{
+    background-color: #0F2026;
+    width: 100vw;
+    display: block;
+    color: #A3C9D9;
     padding: 10px;
-    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+}
+
+span:hover{
+    background-color: #A3C9D9;
+    color:#0f2026;
+    border-top: 2px solid #0f2026;
+}
+
+menu{
+    display: none;
+} 
+
+menu > ul{
+    list-style-type: none;
 }
 
 menu ul li a{
+    display: block;
+    padding: 10px;
+    background-color: #1c4351be;
     color:#F0F1F2;
+    text-align: center;
     text-decoration: none;
+    border-top: 2px solid #0F2026;
 }
 
 menu ul li a:hover{
     text-decoration: underline;
+    color: #0F2026;
+    background-color: #A3C9D9;
 }
 
 main{
-    padding-top: 5px;
-    text-indent: 30px;
-}
-
-article{
-    margin: auto;
-    max-width: 50vw;
+    width: 90vw;
     padding: 10px;
+    text-indent: 30px;
+    margin: auto;
+    margin-top: 10px;
 
     border-radius: 10px;
     background-color: #F0F1F2;
 }
 
-article p{
-    padding: 5px;
+article > h2{
+    padding-bottom: 20px;
 }
 
-
+article p{
+    padding: 5px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
