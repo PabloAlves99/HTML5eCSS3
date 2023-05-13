@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    #hamb{
+        display: none;
+    }
+
+    #itens {
+        display:block;
+    }
+
+    menu > ul > li > a{
+        border-top: none;
+        padding: 15px;
+        transition: .5s;
+    }
+
+    menu > ul > li > a:hover{
+        background-color: #0F2026;
+        color: white;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main{
+        width: 720px;
+    }
+}
