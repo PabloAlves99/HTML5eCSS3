@@ -11,7 +11,7 @@
  <!-- <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%202/SiteArmonico.html" target="_blank">Site Armonico</a></li>-->
 <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%202/ProjetoAndroid/android.html" target="_blank">Projeto Android</a></li>
 <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%203/projetoCordel/CordelParaGitHub.html" target="_blank"> Cordel Moderno</a></li>
-<li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%204/Projeto-Rede-Social/index.html">Projeto Redes Sociais</a></li>
+<!--<li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%204/Projeto-Rede-Social/index.html">Projeto Redes Sociais</a></li>-->
 
 <h2>Projeto com Media Query</h2>
 <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%204/Projeto-Login/index.html">Projeto Login</a>
