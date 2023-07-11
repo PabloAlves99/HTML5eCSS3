@@ -14,7 +14,7 @@
 <!--<li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%204/Projeto-Rede-Social/index.html">Projeto Redes Sociais</a></li>-->
 
 <h2>Projeto com Media Query</h2>
-<li><a href="https://pabloalves99.github.io/HTML5eCSS3/Mentor/ComponentesDeResumoDeResultado/results-summary-component-main/Projeto/index.html"> Projeto Tela de Resultados</a>a></li>
+<li><a href="https://pabloalves99.github.io/HTML5eCSS3/Mentor/ComponentesDeResumoDeResultado/results-summary-component-main/Projeto/index.html"> Projeto Tela de Resultados</a></li>
 <li><a href="https://pabloalves99.github.io/HTML5eCSS3/Modulo%204/Projeto-Login/index.html">Projeto Login</a>
 </ul>
 </section>
