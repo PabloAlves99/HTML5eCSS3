@@ -1,0 +1,41 @@
+@media (max-width: 760px) and (min-width: 400px){
+    body{
+        margin: 0;
+        padding: 10px 0px 0px 0px;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 280px;
+        height: 700px;
+    }
+    
+    #resultado{
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 400px){
+    body, main{
+        margin: 0;
+        padding: 0;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vh;
+        height: auto;
+    }
+    
+    #resultado{
+        width: 92vw;
+        border-radius: 0px 0px 30px 30px ;
+    }
+
+}
